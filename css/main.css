@@ -7,6 +7,15 @@ body {
 }
 .searchbox {
   border: 1px solid #dfe1e5;
+	width: 560px;
+	height: 45px;
+	    position: center;
+	    left: -140px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-indent: 35px;
+	    background: url("../images/search-24px.svg") no-repeat 10px center;
 }
 .main-buttons {
   align-content: center;
@@ -45,4 +54,27 @@ li a {
 }
 li a:hover {
   text-decoration: underline;
+}
+#header {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#header li {
+  float: right;
+}
+.headercontent {
+  display: block;
+  padding: 10px 10px;
+}
+#signin {
+  background-color: #4285f4;
+  border: 0;
+  color: white;
+  font-weight: 600;
+  padding: 7px 12px;
+  position: relative;
+  top: 7px;
+  margin-right: 22px;
 }

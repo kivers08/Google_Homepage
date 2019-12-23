@@ -8,12 +8,18 @@
 
 <body>
 <div>
-  <ul>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Store</a></li>
-    <li style="float:right"><a href="#">Images</a></li>
-    <li style="float:right"><a href="#">Gmail</a></li>
-  </ul>
+  <nav>
+    <ul id="header">
+      <li style="float: left"><a class="headercontent" href="#about">About</a></li>
+      <li style="float: left"><a class="headercontent" href="#store">Store</a></li>
+      <li>
+        <button class="headercontent" id="signin">Sign in</button>
+      </li>
+      <li><img class="headercontent" src="images/goole_apps.png" height="25px" width="25px" alt="Google Apps" id="googleapps"></li>
+      <li><a class="headercontent" href="#images" id="img">Images</a></li>
+      <li><a class="headercontent" href="#gmail">Gmail</a></li>
+    </ul>
+  </nav>
 </div>
 <div> <br>
   <br>
@@ -23,15 +29,15 @@
   <br>
 </div>
 <div>
-  <form>
-    <center>
-    <input type="search" class="searchbox">
-    <br>
-    <br>
-    <input type="submit" class="main-buttons">
-    <input type="button" value="Im feeling lucky" class="main-buttons">
-  </form>
-	  </center>
+ <center>
+    <form>
+      <input type="search" class="searchbox">
+      <br>
+      <br>
+      <input type="submit" class="main-buttons">
+      <input type="button" value="Im feeling lucky" class="main-buttons">
+    </form>
+	</center>
 </div>
 <div id="footer">
   <ul>
